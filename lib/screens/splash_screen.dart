@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:trivia_app/screens/home_screen.dart';
 import 'package:trivia_app/vars/globals.dart';
 import 'package:trivia_app/vars/strings.dart';
+import 'package:trivia_app/widgets/scaffold_container.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
@@ -15,10 +16,10 @@ class SplashScreenState extends State<SplashScreen> {
   void switchScreenOnWait() {
     Future.delayed(const Duration(seconds: SPLASH_SCREEN_TIMER)).then(
       (value) => {
-        // Navigator.pushReplacement(
-        //   context,
-        //   MaterialPageRoute(builder: (context) => const HomeScreen()),
-        // )
+        Navigator.pushReplacement(
+          context,
+          MaterialPageRoute(builder: (context) => const HomeScreen()),
+        )
       },
     );
   }
@@ -37,8 +38,8 @@ class SplashScreenState extends State<SplashScreen> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: Column(
+    return MyScaffoldContainerBackground(
+      child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           const Text(

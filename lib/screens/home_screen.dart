@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:trivia_app/widgets/scaffold_container.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -10,6 +11,9 @@ class HomeScreen extends StatefulWidget {
 class HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
-    return Text("data");
+    return MyScaffoldContainerBackground(
+      showAppBar: true,
+      child: Text("HOME SCREEN"),
+    );
   }
 }
