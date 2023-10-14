@@ -1,5 +1,4 @@
 // ignore_for_file: non_constant_identifier_names, constant_identifier_names
-import 'package:flutter/material.dart';
 
 const int SPLASH_SCREEN_TIMER = 3;
 const int ANIMATION_DURATION_MILLIS = 200;

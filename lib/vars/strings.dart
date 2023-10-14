@@ -2,7 +2,7 @@
 
 const String APP_NAME = "Trivia";
 
-const String WELCOME_MESSAGE = "Welcome";
+const String WELCOME_MESSAGE = "Welcome!";
 
 /// ------------------- Info page ------------------- ///
 const String SETTINGS_PAGE_TITLE = "Settings";

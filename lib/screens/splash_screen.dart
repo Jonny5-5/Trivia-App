@@ -1,10 +1,7 @@
-import 'package:bmi_calculator/vars/strings.dart';
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
-
-import '../vars/globals.dart';
-import '../widgets/scaffold_container.dart';
-import 'bmi_screen.dart';
+import 'package:trivia_app/screens/home_screen.dart';
+import 'package:trivia_app/vars/globals.dart';
+import 'package:trivia_app/vars/strings.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
@@ -23,7 +20,7 @@ class SplashScreenState extends State<SplashScreen> {
       (value) => {
         Navigator.pushReplacement(
           context,
-          MaterialPageRoute(builder: (context) => const BmiScreen()),
+          MaterialPageRoute(builder: (context) => const HomeScreen()),
         )
       },
     );
@@ -43,19 +40,14 @@ class SplashScreenState extends State<SplashScreen> {
 
   @override
   Widget build(BuildContext context) {
-    return MyScaffoldContainerBackground(
-      child: Column(
+    return Scaffold(
+      body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Text(
+          const Text(
             WELCOME_MESSAGE,
-            style: GoogleFonts.robotoCondensed(
-              color: MINT_GREEN,
-              fontSize: 50,
-              fontWeight: FontWeight.bold,
-            ),
           ),
-          const SizedBox(height: BIGGER_PADDING_SIZE),
+          const SizedBox(height: DEFALT_PADDING_SIZE),
           AnimatedScale(
             scale: zoomIn ? 1.1 : 1,
             duration: Duration(milliseconds: zoomIn ? 1000 : 300),
