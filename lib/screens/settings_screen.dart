@@ -55,7 +55,7 @@ class SettingsScreenState extends State<SettingsScreen> {
                 'Current difficulty is ${currentDifficulty.toString().split('.').last}',
                 style: TextStyle(fontSize: 10)
                 ),
-                SizedBox(height:DEFALT_PADDING_SIZE*2)
+            SizedBox(height:DEFALT_PADDING_SIZE*2)
           ],
         ));
   }
