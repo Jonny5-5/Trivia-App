@@ -13,7 +13,7 @@ class HomeScreen extends StatefulWidget {
 class HomeScreenState extends State<HomeScreen> {
   /// Go to the Single Player Screen
   void onPressedSingle() {
-    Navigator.pushReplacement(
+    Navigator.push(
       context,
       MaterialPageRoute(builder: (context) => const SinglePlayScreen()),
     );
@@ -21,7 +21,7 @@ class HomeScreenState extends State<HomeScreen> {
 
   /// Go to the Multi Player Screen
   void onPressedMulti() {
-    Navigator.pushReplacement(
+    Navigator.push(
       context,
       MaterialPageRoute(builder: (context) => const GroupPlayScreen()),
     );
