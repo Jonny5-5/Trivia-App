@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:trivia_app/screens/multiplayer_screen.dart';
 import 'package:trivia_app/screens/single_play_screen.dart';
+import 'package:trivia_app/vars/globals.dart';
 import 'package:trivia_app/widgets/scaffold_container.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -36,11 +37,12 @@ class HomeScreenState extends State<HomeScreen> {
         children: [
           ElevatedButton(
             onPressed: onPressedSingle,
-            child: const Text("Single Player"),
+            child: const Text("Multiple Choice"),
           ),
+          SizedBox(height:DEFALT_PADDING_SIZE*2),
           ElevatedButton(
             onPressed: onPressedMulti,
-            child: const Text("Multi Player"),
+            child: const Text("Open Answer"),
           ),
         ],
       ),

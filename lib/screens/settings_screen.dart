@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:trivia_app/data/trivia_q.dart';
+import 'package:trivia_app/vars/globals.dart';
 import 'package:trivia_app/widgets/scaffold_container.dart';
 
 enum Difficulty { easy, medium, hard, all }
@@ -44,13 +45,17 @@ class SettingsScreenState extends State<SettingsScreen> {
               },
               child: const Text("Sounds"),
             ),
+            SizedBox(height:DEFALT_PADDING_SIZE*2),
             ElevatedButton(
               onPressed: moveToNextDifficulty,
               child: const Text("Difficulty"),
             ),
+            SizedBox(height:DEFALT_PADDING_SIZE*2),
             Text(
                 'Current difficulty is ${currentDifficulty.toString().split('.').last}',
-                style: TextStyle(fontSize: 20))
+                style: TextStyle(fontSize: 10)
+                ),
+                SizedBox(height:DEFALT_PADDING_SIZE*2)
           ],
         ));
   }
