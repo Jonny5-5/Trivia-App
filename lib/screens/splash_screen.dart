@@ -53,7 +53,7 @@ class SplashScreenState extends State<SplashScreen> {
           const Text(
             WELCOME_MESSAGE,
           ),
-          const SizedBox(height: DEFALT_PADDING_SIZE),
+          const SizedBox(height: DEFAULT_PADDING_SIZE),
           AnimatedScale(
             scale: zoomIn ? 1.1 : 1,
             duration: Duration(milliseconds: zoomIn ? 1000 : 300),

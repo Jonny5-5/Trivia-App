@@ -31,7 +31,7 @@ class TriviaState extends State<Trivia> {
     return Column(
       children: [
         QuestionBox(question: widget.question.question),
-        const SizedBox(height: DEFALT_PADDING_SIZE * 3),
+        const SizedBox(height: DEFAULT_PADDING_SIZE * 3),
         if (widget.showOptions)
           QuestionAnswers(
             options: widget.answers,

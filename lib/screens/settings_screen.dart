@@ -45,17 +45,16 @@ class SettingsScreenState extends State<SettingsScreen> {
               },
               child: const Text("Sounds"),
             ),
-            SizedBox(height:DEFALT_PADDING_SIZE*2),
+            SizedBox(height: DEFAULT_PADDING_SIZE * 2),
             ElevatedButton(
               onPressed: moveToNextDifficulty,
               child: const Text("Difficulty"),
             ),
-            SizedBox(height:DEFALT_PADDING_SIZE*2),
+            SizedBox(height: DEFAULT_PADDING_SIZE * 2),
             Text(
                 'Current difficulty is ${currentDifficulty.toString().split('.').last}',
-                style: TextStyle(fontSize: 10)
-                ),
-            SizedBox(height:DEFALT_PADDING_SIZE*2)
+                style: TextStyle(fontSize: 10)),
+            SizedBox(height: DEFAULT_PADDING_SIZE * 2)
           ],
         ));
   }

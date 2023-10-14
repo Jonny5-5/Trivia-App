@@ -4,7 +4,7 @@ const int SPLASH_SCREEN_TIMER = 3;
 const int ANIMATION_DURATION_MILLIS = 200;
 const double ZOOM_IN_SCALE = 1.2;
 
-const double DEFALT_PADDING_SIZE = 8;
+const double DEFAULT_PADDING_SIZE = 8;
 
 // URLs to our other apps
 const String ANDROID_STORE_URL =

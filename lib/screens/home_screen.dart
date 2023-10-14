@@ -39,7 +39,7 @@ class HomeScreenState extends State<HomeScreen> {
             onPressed: onPressedSingle,
             child: const Text("Multiple Choice"),
           ),
-          SizedBox(height:DEFALT_PADDING_SIZE*2),
+          const SizedBox(height: DEFAULT_PADDING_SIZE * 2),
           ElevatedButton(
             onPressed: onPressedMulti,
             child: const Text("Open Answer"),

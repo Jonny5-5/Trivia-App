@@ -3,6 +3,7 @@
 const String APP_NAME = "Trivia";
 
 const String WELCOME_MESSAGE = "Welcome!";
+const String HERO_ANSWER_TAG = "answer";
 
 /// ------------------- Info page ------------------- ///
 const String SETTINGS_PAGE_TITLE = "Settings";

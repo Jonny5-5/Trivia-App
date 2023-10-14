@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:trivia_app/data/trivia_q.dart';
 import 'package:trivia_app/vars/globals.dart';
+import 'package:trivia_app/vars/strings.dart';
 import 'package:trivia_app/widgets/scaffold_container.dart';
+import 'package:trivia_app/widgets/trivia/popup.dart';
 import 'package:trivia_app/widgets/trivia/trivia.dart';
 
 class SinglePlayScreen extends StatefulWidget {
@@ -22,12 +24,19 @@ class SinglePlayScreenState extends State<SinglePlayScreen> {
   }
 
   /// This is called when the user clicks on an answer
-  void onAnswer(String answer) {
-    if (answer == q.correctAnswer) {
+  void onAnswer(String answer) async {
+    bool correct = answer == q.correctAnswer;
+    if (correct) {
       debugPrint("You got the answer right");
     } else {
       debugPrint("Wrong answer");
     }
+    await showDialog(
+      context: context,
+      builder: (BuildContext context) {
+        return Popup(correct);
+      },
+    );
     refresh();
   }
 
@@ -48,9 +57,9 @@ class SinglePlayScreenState extends State<SinglePlayScreen> {
           const Spacer(flex: 10),
           ElevatedButton(
             onPressed: refresh,
-            child: Text("refresh"),
+            child: const Text("refresh"),
           ),
-          const SizedBox(height: DEFALT_PADDING_SIZE * 3),
+          const SizedBox(height: DEFAULT_PADDING_SIZE * 3),
         ],
       ),
     );
