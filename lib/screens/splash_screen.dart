@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:trivia_app/data/trivia_q.dart';
 import 'package:trivia_app/screens/home_screen.dart';
 import 'package:trivia_app/vars/globals.dart';
 import 'package:trivia_app/vars/strings.dart';
@@ -24,9 +25,16 @@ class SplashScreenState extends State<SplashScreen> {
     );
   }
 
+  Future<void> loadSingletons() async {
+    // Load the Trivia Questions
+    Questions qs = Questions();
+    qs.load();
+  }
+
   @override
   void initState() {
     super.initState();
+    loadSingletons();
     switchScreenOnWait();
     // make the zoom in/out happen
     Future.delayed(const Duration(milliseconds: 100), () {
