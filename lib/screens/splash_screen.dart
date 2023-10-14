@@ -11,17 +11,14 @@ class SplashScreen extends StatefulWidget {
 }
 
 class SplashScreenState extends State<SplashScreen> {
-  // I'm thinking that for this splash screen, we should have a
-  // throbbing mint green color in the background that slowly makes it's way
-  // around the screen.
   bool zoomIn = true;
   void switchScreenOnWait() {
     Future.delayed(const Duration(seconds: SPLASH_SCREEN_TIMER)).then(
       (value) => {
-        Navigator.pushReplacement(
-          context,
-          MaterialPageRoute(builder: (context) => const HomeScreen()),
-        )
+        // Navigator.pushReplacement(
+        //   context,
+        //   MaterialPageRoute(builder: (context) => const HomeScreen()),
+        // )
       },
     );
   }
