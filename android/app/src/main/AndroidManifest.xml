@@ -1,6 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
     <application
-        android:label="trivia_app"
+        android:label="Minutiae Trivia"
         android:name="${applicationName}"
         android:icon="@mipmap/launcher_icon">
         <activity
