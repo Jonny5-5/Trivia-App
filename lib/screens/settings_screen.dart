@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:trivia_app/data/trivia_q.dart';
 import 'package:trivia_app/widgets/scaffold_container.dart';
+
+enum Difficulty { easy, medium, hard, all }
 
 class SettingsScreen extends StatefulWidget {
   const SettingsScreen({super.key});
@@ -8,49 +11,47 @@ class SettingsScreen extends StatefulWidget {
   State<SettingsScreen> createState() => SettingsScreenState();
 }
 
-enum difficulty {
-  easy, medium, hard, all
-}
-
-
 class SettingsScreenState extends State<SettingsScreen> {
   bool soundOn = true;
-  difficulty currentDifficulty = difficulty.all;
+  Difficulty currentDifficulty = Difficulty.all;
+
+  /// Move the difficulty to the next step
   void moveToNextDifficulty() {
-  int nextIndex = (currentDifficulty.index + 1) % difficulty.values.length;
-  currentDifficulty = difficulty.values[nextIndex];
-  setState(() {
-  
-  });
-}
+    int nextIndex = (currentDifficulty.index + 1) % Difficulty.values.length;
+    currentDifficulty = Difficulty.values[nextIndex];
+
+    // Update the difficulty in the Singleton
+    Questions().difficulty = currentDifficulty;
+
+    // Refresh the page
+    setState(() {});
+  }
+
   @override
   Widget build(BuildContext context) {
     return MyScaffoldContainerBackground(
-      showAppBar: true,
-      child:Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: [
-          ElevatedButton(
-            style: ElevatedButton.styleFrom(
-              backgroundColor: soundOn ? Colors.green : Colors.red),
-            onPressed: () {
-              setState(() {
-                soundOn = !soundOn;
-              });
-            },
-            child: const Text("Sounds"),
-          ),
-          ElevatedButton(
-            onPressed: moveToNextDifficulty,
-            child: const Text("Difficulty"),
-          ),
-          Text(
-            'Current difficulty is ${currentDifficulty.toString().split('.').last}',
-            style: TextStyle(fontSize: 20)
-            )
-        ],
-      )
-
-    );
+        showAppBar: true,
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            ElevatedButton(
+              style: ElevatedButton.styleFrom(
+                  backgroundColor: soundOn ? Colors.green : Colors.red),
+              onPressed: () {
+                setState(() {
+                  soundOn = !soundOn;
+                });
+              },
+              child: const Text("Sounds"),
+            ),
+            ElevatedButton(
+              onPressed: moveToNextDifficulty,
+              child: const Text("Difficulty"),
+            ),
+            Text(
+                'Current difficulty is ${currentDifficulty.toString().split('.').last}',
+                style: TextStyle(fontSize: 20))
+          ],
+        ));
   }
 }
