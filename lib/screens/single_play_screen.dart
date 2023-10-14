@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:trivia_app/data/trivia_q.dart';
+import 'package:trivia_app/vars/globals.dart';
 import 'package:trivia_app/widgets/scaffold_container.dart';
 import 'package:trivia_app/widgets/trivia/trivia.dart';
 
@@ -42,13 +43,14 @@ class SinglePlayScreenState extends State<SinglePlayScreen> {
             question: q,
             answers: [q.correctAnswer!, ...q.incorrectAnswers!],
             onAnswer: onAnswer,
+            showOptions: true,
           ),
           const Spacer(flex: 10),
           ElevatedButton(
             onPressed: refresh,
             child: Text("refresh"),
           ),
-          const Spacer(),
+          const SizedBox(height: DEFALT_PADDING_SIZE * 3),
         ],
       ),
     );

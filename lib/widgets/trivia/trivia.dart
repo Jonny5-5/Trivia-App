@@ -8,13 +8,17 @@ class Trivia extends StatefulWidget {
   final Q question;
   final List<String> answers;
   final Function(String) onAnswer;
+  final bool showOptions;
 
   /// [question] is the [Q] object containing the necessary information
+  ///
+  /// if [showOptions] is false, then the set [answers] to only the correct ans
   const Trivia({
     super.key,
     required this.question,
     required this.answers,
     required this.onAnswer,
+    required this.showOptions,
   });
 
   @override
@@ -28,10 +32,11 @@ class TriviaState extends State<Trivia> {
       children: [
         QuestionBox(question: widget.question.question),
         const SizedBox(height: DEFALT_PADDING_SIZE * 3),
-        QuestionAnswers(
-          options: widget.answers,
-          onClick: widget.onAnswer,
-        ),
+        if (widget.showOptions)
+          QuestionAnswers(
+            options: widget.answers,
+            onClick: widget.onAnswer,
+          ),
       ],
     );
   }
