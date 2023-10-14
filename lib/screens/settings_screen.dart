@@ -12,6 +12,7 @@ class SettingsScreenState extends State<SettingsScreen> {
   @override
   Widget build(BuildContext context) {
     return MyScaffoldContainerBackground(
+      showAppBar: true,
       child: Text("Settings Page"),
     );
   }

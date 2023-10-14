@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:trivia_app/screens/splash_screen.dart';
-import 'package:trivia_app/vars/colors.dart';
 import 'package:trivia_app/vars/strings.dart';
+import 'package:trivia_app/vars/theme.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,10 +16,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: APP_NAME,
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: MINT_GREEN),
-        useMaterial3: true,
-      ),
+      theme: MyTheme.themeDataLight,
+      darkTheme: MyTheme.themeDataDark,
       home: const SplashScreen(),
     );
   }
