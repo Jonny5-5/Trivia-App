@@ -32,17 +32,22 @@ class Popup extends StatelessWidget {
     }
 
     // Otherwise, return the 'wrong' one
-    return AlertDialog(
-      title: const Text('Wrong'),
-      content: const Text('You got the wrong answer.'),
-      actions: <Widget>[
-        TextButton(
-          onPressed: () {
-            Navigator.of(context).pop();
-          },
-          child: const Text('Close'),
+    return GestureDetector(
+      onTap: () {
+        Navigator.of(context).pop();
+      },
+      child: Padding(
+        padding: const EdgeInsets.all(DEFAULT_PADDING_SIZE * 5),
+        child: Container(
+          height: double.infinity,
+          width: double.infinity,
+          decoration: BoxDecoration(
+              color: Colors.red,
+              border: Border.all(),
+              borderRadius: const BorderRadius.all(Radius.circular(16))),
+          child: Icon(Icons.error),
         ),
-      ],
+      ),
     );
   }
 }

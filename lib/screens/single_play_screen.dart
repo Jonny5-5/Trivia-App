@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:trivia_app/data/trivia_q.dart';
 import 'package:trivia_app/vars/globals.dart';
-import 'package:trivia_app/vars/strings.dart';
 import 'package:trivia_app/widgets/scaffold_container.dart';
 import 'package:trivia_app/widgets/trivia/popup.dart';
 import 'package:trivia_app/widgets/trivia/trivia.dart';
