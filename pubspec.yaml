@@ -25,3 +25,4 @@ flutter:
   assets:
     - assets/images/
     - assets/trivia_data.json
+    - assets/sounds/
