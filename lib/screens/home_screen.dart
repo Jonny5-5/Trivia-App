@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:trivia_app/screens/group_play_screen.dart';
+import 'package:trivia_app/screens/multiplayer_screen.dart';
 import 'package:trivia_app/screens/single_play_screen.dart';
 import 'package:trivia_app/widgets/scaffold_container.dart';
 
@@ -23,7 +23,7 @@ class HomeScreenState extends State<HomeScreen> {
   void onPressedMulti() {
     Navigator.push(
       context,
-      MaterialPageRoute(builder: (context) => const GroupPlayScreen()),
+      MaterialPageRoute(builder: (context) => const MultiPlayerScreen()),
     );
   }
 

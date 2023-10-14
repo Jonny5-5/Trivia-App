@@ -41,12 +41,8 @@ class Questions {
     }
   }
 
+  /// Get a random question
   Q getQuestion() {
-    if (!_loaded) {
-      load();
-    }
-
-    // Get a random question
     Random random = Random();
     int rand = random.nextInt(trivia!.length);
     return trivia![rand];
