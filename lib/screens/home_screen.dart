@@ -35,6 +35,14 @@ class HomeScreenState extends State<HomeScreen> {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
+          Padding(
+            padding: const EdgeInsets.symmetric(
+              vertical: DEFAULT_PADDING_SIZE * 6,
+              horizontal: DEFAULT_PADDING_SIZE * 4,
+            ),
+            child: Image.asset("assets/images/Icon_Label.png"),
+          ),
+          const Spacer(),
           ElevatedButton(
             onPressed: onPressedSingle,
             child: const Text("Multiple Choice"),
@@ -44,6 +52,7 @@ class HomeScreenState extends State<HomeScreen> {
             onPressed: onPressedMulti,
             child: const Text("Open Answer"),
           ),
+          const Spacer(flex: 10),
         ],
       ),
     );

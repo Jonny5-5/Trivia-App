@@ -33,7 +33,7 @@ class SinglePlayScreenState extends State<SinglePlayScreen> {
     await showDialog(
       context: context,
       builder: (BuildContext context) {
-        return Popup(correct);
+        return Popup(correct, q.correctAnswer!);
       },
     );
     refresh();
@@ -47,17 +47,18 @@ class SinglePlayScreenState extends State<SinglePlayScreen> {
         mainAxisAlignment: MainAxisAlignment.start,
         children: [
           const Spacer(),
-          Trivia(
-            question: q,
-            answers: [q.correctAnswer!, ...q.incorrectAnswers!],
-            onAnswer: onAnswer,
-            showOptions: true,
+          Padding(
+            padding: const EdgeInsets.symmetric(
+              horizontal: DEFAULT_PADDING_SIZE * 2,
+            ),
+            child: Trivia(
+              question: q,
+              answers: [q.correctAnswer!, ...q.incorrectAnswers!],
+              onAnswer: onAnswer,
+              showOptions: true,
+            ),
           ),
           const Spacer(flex: 10),
-          ElevatedButton(
-            onPressed: refresh,
-            child: const Text("refresh"),
-          ),
           const SizedBox(height: DEFAULT_PADDING_SIZE * 3),
         ],
       ),

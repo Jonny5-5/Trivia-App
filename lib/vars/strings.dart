@@ -1,6 +1,6 @@
 // ignore_for_file: non_constant_identifier_names, constant_identifier_names
 
-const String APP_NAME = "Trivia";
+const String APP_NAME = "Minutiae";
 
 const String WELCOME_MESSAGE = "Welcome!";
 const String HERO_ANSWER_TAG = "answer";
