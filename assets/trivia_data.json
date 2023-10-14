@@ -40,7 +40,7 @@
         "category": "Entertainment: Music",
         "type": "multiple",
         "difficulty": "easy",
-        "question": "&quot;Some people call me the space cowboy&quot; is the first line from what song?",
+        "question": "\"Some people call me the space cowboy\" is the first line from what song?",
         "correct_answer": "The Joker",
         "incorrect_answers": [
           "Fandango",
@@ -76,7 +76,7 @@
         "category": "Entertainment: Film",
         "type": "boolean",
         "difficulty": "easy",
-        "question": "The film &quot;2001: A Space Odyssey&quot; was released on December 31st, 2000.",
+        "question": "The film \"2001: A Space Odyssey\" was released on December 31st, 2000.",
         "correct_answer": "False",
         "incorrect_answers": [
           "True"
@@ -122,7 +122,7 @@
         "category": "Entertainment: Video Games",
         "type": "multiple",
         "difficulty": "easy",
-        "question": "What year did the game &quot;Overwatch&quot; enter closed beta?",
+        "question": "What year did the game \"Overwatch\" enter closed beta?",
         "correct_answer": "2015",
         "incorrect_answers": [
           "2013",
@@ -135,11 +135,11 @@
         "type": "multiple",
         "difficulty": "medium",
         "question": "In Call of Duty: United Offensive, what two soldiers share a name of a video game character?",
-        "correct_answer": "Gordon &amp; Freeman",
+        "correct_answer": "Gordon & Freeman",
         "incorrect_answers": [
-          "Sam &amp; Fisher",
-          "Nathan &amp; Drake",
-          "Dig &amp; Dug"
+          "Sam & Fisher",
+          "Nathan & Drake",
+          "Dig & Dug"
         ]
       },
       {
@@ -158,7 +158,7 @@
         "category": "Entertainment: Cartoon & Animations",
         "type": "multiple",
         "difficulty": "medium",
-        "question": "Who is the &quot;dumb blonde&quot; character in Nickelodeon&#039;s &quot;The Loud House&quot;?",
+        "question": "Who is the \"dumb blonde\" character in Nickelodeon's \"The Loud House\"?",
         "correct_answer": "Leni",
         "incorrect_answers": [
           "Luan",
@@ -170,7 +170,7 @@
         "category": "Entertainment: Music",
         "type": "multiple",
         "difficulty": "medium",
-        "question": "What is the name of French electronic music producer Madeon&#039;s 2015 debut studio album?",
+        "question": "What is the name of French electronic music producer Madeon's 2015 debut studio album?",
         "correct_answer": "Adventure",
         "incorrect_answers": [
           "The City",
@@ -238,7 +238,7 @@
         "category": "Geography",
         "type": "multiple",
         "difficulty": "easy",
-        "question": "What is the name of New Zealand&#039;s indigenous people?",
+        "question": "What is the name of New Zealand's indigenous people?",
         "correct_answer": "Maori",
         "incorrect_answers": [
           "Vikings",
@@ -262,7 +262,7 @@
         "category": "Entertainment: Television",
         "type": "multiple",
         "difficulty": "easy",
-        "question": "In &quot;Breaking Bad&quot;, Walter White is a high school teacher diagnosed with which form of cancer?",
+        "question": "In \"Breaking Bad\", Walter White is a high school teacher diagnosed with which form of cancer?",
         "correct_answer": "Lung Cancer",
         "incorrect_answers": [
           "Prostate Cancer",
@@ -296,7 +296,7 @@
         "category": "Entertainment: Japanese Anime & Manga",
         "type": "multiple",
         "difficulty": "easy",
-        "question": "Satella in &quot;Re:Zero&quot; is the witch of what?",
+        "question": "Satella in \"Re:Zero\" is the witch of what?",
         "correct_answer": "Envy",
         "incorrect_answers": [
           "Pride",
@@ -344,10 +344,10 @@
         "category": "Entertainment: Video Games",
         "type": "multiple",
         "difficulty": "medium",
-        "question": "Which of these is the only fighter in the game &quot;Super Smash Bros. Melee&quot; capable of dealing damage with their taunt animation?",
+        "question": "Which of these is the only fighter in the game \"Super Smash Bros. Melee\" capable of dealing damage with their taunt animation?",
         "correct_answer": "Luigi",
         "incorrect_answers": [
-          "Mr. Game &amp; Watch",
+          "Mr. Game & Watch",
           "Jigglypuff",
           "Pichu"
         ]
@@ -356,7 +356,7 @@
         "category": "Entertainment: Video Games",
         "type": "boolean",
         "difficulty": "medium",
-        "question": "&quot;Return to Castle Wolfenstein&quot; was the only game of the Wolfenstein series where you don&#039;t play as William &quot;B.J.&quot; Blazkowicz.",
+        "question": "\"Return to Castle Wolfenstein\" was the only game of the Wolfenstein series where you don't play as William \"B.J.\" Blazkowicz.",
         "correct_answer": "False",
         "incorrect_answers": [
           "True"
@@ -378,7 +378,7 @@
         "category": "Entertainment: Video Games",
         "type": "multiple",
         "difficulty": "hard",
-        "question": "In &quot;The Witness&quot;, how many lasers must be activated to get into the mountain area?",
+        "question": "In \"The Witness\", how many lasers must be activated to get into the mountain area?",
         "correct_answer": "7",
         "incorrect_answers": [
           "8",
@@ -426,7 +426,7 @@
         "category": "Entertainment: Video Games",
         "type": "multiple",
         "difficulty": "medium",
-        "question": "What is the main character&#039;s name in &quot;Braid&quot;?",
+        "question": "What is the main character's name in \"Braid\"?",
         "correct_answer": "Tim",
         "incorrect_answers": [
           "Boregard",
@@ -438,7 +438,7 @@
         "category": "Entertainment: Cartoon & Animations",
         "type": "multiple",
         "difficulty": "medium",
-        "question": "What is the name of the Alligator that The Simpsons &quot;killed&quot; in the episode &quot;Kill The Alligator and Run&quot;?",
+        "question": "What is the name of the Alligator that The Simpsons \"killed\" in the episode \"Kill The Alligator and Run\"?",
         "correct_answer": "Captain Jack",
         "incorrect_answers": [
           "Captain Jake",
@@ -462,7 +462,7 @@
         "category": "General Knowledge",
         "type": "multiple",
         "difficulty": "easy",
-        "question": "What is the name of NASA&rsquo;s most famous space telescope?",
+        "question": "What is the name of NASA's most famous space telescope?",
         "correct_answer": "Hubble Space Telescope",
         "incorrect_answers": [
           "Big Eye",
@@ -474,7 +474,7 @@
         "category": "Entertainment: Music",
         "type": "multiple",
         "difficulty": "medium",
-        "question": "What is the opening track on Lorde&#039;s Pure Heroine?",
+        "question": "What is the opening track on Lorde's Pure Heroine?",
         "correct_answer": "Tennis Court",
         "incorrect_answers": [
           "Team",
@@ -558,12 +558,12 @@
         "category": "Entertainment: Video Games",
         "type": "multiple",
         "difficulty": "hard",
-        "question": "In the Nintendo Game Splatoon 2, what is Marina&#039;s screen name?",
+        "question": "In the Nintendo Game Splatoon 2, what is Marina's screen name?",
         "correct_answer": "DJ_Hyperfresh",
         "incorrect_answers": [
           "MC.princess",
           "Kidnotsquid123",
-          "I&lt;30ffTh3H00k"
+          "I<30ffTh3H00k"
         ]
       },
       {
@@ -618,7 +618,7 @@
         "category": "Entertainment: Music",
         "type": "multiple",
         "difficulty": "hard",
-        "question": "On which Beatles album would you find the song &#039;Eleanor Rigby&#039;?",
+        "question": "On which Beatles album would you find the song 'Eleanor Rigby'?",
         "correct_answer": "Revolver",
         "incorrect_answers": [
           "Help!",
@@ -630,7 +630,7 @@
         "category": "Entertainment: Video Games",
         "type": "multiple",
         "difficulty": "medium",
-        "question": "Who was the mascot of SEGA before &quot;Sonic the Hedgehog&quot;?",
+        "question": "Who was the mascot of SEGA before \"Sonic the Hedgehog\"?",
         "correct_answer": "Alex Kidd",
         "incorrect_answers": [
           "Opa Opa",
@@ -642,7 +642,7 @@
         "category": "Entertainment: Television",
         "type": "multiple",
         "difficulty": "medium",
-        "question": "What is the title of The Allman Brothers Band instrumental used as the theme to the BBC motoring show, &#039;Top Gear&#039;?",
+        "question": "What is the title of The Allman Brothers Band instrumental used as the theme to the BBC motoring show, 'Top Gear'?",
         "correct_answer": "Jessica",
         "incorrect_answers": [
           "Angela",
@@ -654,7 +654,7 @@
         "category": "Geography",
         "type": "multiple",
         "difficulty": "medium",
-        "question": "What is the only country in the world with a flag that doesn&#039;t have four right angles?",
+        "question": "What is the only country in the world with a flag that doesn't have four right angles?",
         "correct_answer": "Nepal",
         "incorrect_answers": [
           "Panama",
@@ -678,7 +678,7 @@
         "category": "Animals",
         "type": "multiple",
         "difficulty": "medium",
-        "question": "What color/colour is a polar bear&#039;s skin?",
+        "question": "What color/colour is a polar bear's skin?",
         "correct_answer": "Black",
         "incorrect_answers": [
           "White",
@@ -714,7 +714,7 @@
         "category": "General Knowledge",
         "type": "multiple",
         "difficulty": "hard",
-        "question": "When was &quot;YouTube&quot; founded?",
+        "question": "When was \"YouTube\" founded?",
         "correct_answer": "February 14, 2005",
         "incorrect_answers": [
           "May 22, 2004",
@@ -738,7 +738,7 @@
         "category": "Entertainment: Film",
         "type": "boolean",
         "difficulty": "easy",
-        "question": "The word &quot;Inception&quot; came from the 2010 blockbuster hit &quot;Inception&quot;.",
+        "question": "The word \"Inception\" came from the 2010 blockbuster hit \"Inception\".",
         "correct_answer": "False",
         "incorrect_answers": [
           "True"
@@ -748,7 +748,7 @@
         "category": "History",
         "type": "multiple",
         "difficulty": "medium",
-        "question": "On which day did the attempted coup d&#039;etat of 1991 in the Soviet Union begin?",
+        "question": "On which day did the attempted coup d'etat of 1991 in the Soviet Union begin?",
         "correct_answer": "August 19",
         "incorrect_answers": [
           "August 21",
@@ -772,7 +772,7 @@
         "category": "General Knowledge",
         "type": "boolean",
         "difficulty": "medium",
-        "question": "The term &quot;Spam&quot; came before the food product &quot;Spam&quot;.",
+        "question": "The term \"Spam\" came before the food product \"Spam\".",
         "correct_answer": "False",
         "incorrect_answers": [
           "True"
@@ -782,7 +782,7 @@
         "category": "Entertainment: Video Games",
         "type": "multiple",
         "difficulty": "medium",
-        "question": "Capcom&#039;s survival horror title Dead Rising, canonically starts on what day of September 2006?",
+        "question": "Capcom's survival horror title Dead Rising, canonically starts on what day of September 2006?",
         "correct_answer": "September 19th",
         "incorrect_answers": [
           "September 21st",
@@ -794,7 +794,7 @@
         "category": "Entertainment: Music",
         "type": "multiple",
         "difficulty": "medium",
-        "question": "Which famous 90&#039;s rap album is commonly referred to as &quot;The Bible of Hip Hop&quot;?",
+        "question": "Which famous 90's rap album is commonly referred to as \"The Bible of Hip Hop\"?",
         "correct_answer": "Illmatic",
         "incorrect_answers": [
           "The Low End Theory",
@@ -806,7 +806,7 @@
         "category": "Entertainment: Japanese Anime & Manga",
         "type": "multiple",
         "difficulty": "medium",
-        "question": "What year did the anime &quot;Himouto! Umaru-chan&quot; air?",
+        "question": "What year did the anime \"Himouto! Umaru-chan\" air?",
         "correct_answer": "2015",
         "incorrect_answers": [
           "2014",
@@ -818,7 +818,7 @@
         "category": "Entertainment: Video Games",
         "type": "multiple",
         "difficulty": "medium",
-        "question": "In the Halo series, what fleet was Thel &#039;Vadam supreme commander of before being branded an Arbiter?",
+        "question": "In the Halo series, what fleet was Thel 'Vadam supreme commander of before being branded an Arbiter?",
         "correct_answer": "Fleet of Particular Justice",
         "incorrect_answers": [
           "Fleet of Sacred Consecration",
@@ -902,7 +902,7 @@
         "category": "Entertainment: Video Games",
         "type": "boolean",
         "difficulty": "medium",
-        "question": "In the video game &quot;Transistor&quot;, &quot;Red&quot; is the name of the main character.",
+        "question": "In the video game \"Transistor\", \"Red\" is the name of the main character.",
         "correct_answer": "True",
         "incorrect_answers": [
           "False"
@@ -924,7 +924,7 @@
         "category": "Entertainment: Music",
         "type": "multiple",
         "difficulty": "medium",
-        "question": "Which of these songs is not on the &quot;untitled&quot; album by Led Zeppelin?",
+        "question": "Which of these songs is not on the \"untitled\" album by Led Zeppelin?",
         "correct_answer": "Celebration Day",
         "incorrect_answers": [
           "Stairway to Heaven",
@@ -936,7 +936,7 @@
         "category": "Entertainment: Video Games",
         "type": "multiple",
         "difficulty": "medium",
-        "question": "In &quot;Call Of Duty: Zombies&quot;, what does the game traditionally reward you for completing a boss round?",
+        "question": "In \"Call Of Duty: Zombies\", what does the game traditionally reward you for completing a boss round?",
         "correct_answer": "Max Ammo",
         "incorrect_answers": [
           "A Pack-A-Punched gun",
@@ -948,7 +948,7 @@
         "category": "Entertainment: Video Games",
         "type": "multiple",
         "difficulty": "medium",
-        "question": "In &quot;Call Of Duty: Zombies&quot;, completing which map&#039;s main easter egg will reward you with the achievement, &quot;High Maintenance&quot;?",
+        "question": "In \"Call Of Duty: Zombies\", completing which map's main easter egg will reward you with the achievement, \"High Maintenance\"?",
         "correct_answer": "Die Rise",
         "incorrect_answers": [
           "Mob Of The Dead",
@@ -963,7 +963,7 @@
         "question": "Which candy is NOT made by Mars?",
         "correct_answer": "Almond Joy",
         "incorrect_answers": [
-          "M&amp;M&#039;s",
+          "M&M's",
           "Twix",
           "Snickers"
         ]
@@ -984,7 +984,7 @@
         "category": "Geography",
         "type": "multiple",
         "difficulty": "easy",
-        "question": "Where would you find the &quot;Spanish Steps&quot;?",
+        "question": "Where would you find the \"Spanish Steps\"?",
         "correct_answer": "Rome, Italy",
         "incorrect_answers": [
           "Barcelona, Spain",
@@ -1066,7 +1066,7 @@
         "category": "Entertainment: Video Games",
         "type": "multiple",
         "difficulty": "easy",
-        "question": "Which of the following is a class in the game &quot;Hearthstone&quot;?",
+        "question": "Which of the following is a class in the game \"Hearthstone\"?",
         "correct_answer": "Priest",
         "incorrect_answers": [
           "Sage",
@@ -1078,7 +1078,7 @@
         "category": "Science & Nature",
         "type": "multiple",
         "difficulty": "hard",
-        "question": "The word &quot;science&quot; stems from the word &quot;scire&quot; meaning what?",
+        "question": "The word \"science\" stems from the word \"scire\" meaning what?",
         "correct_answer": "To know",
         "incorrect_answers": [
           "To measure",
@@ -1093,8 +1093,8 @@
         "question": "In Night In The Woods, where does Gregg work?",
         "correct_answer": "Snack Falcon",
         "incorrect_answers": [
-          "Ol&#039; Pickaxe",
-          "Video Outpost &quot;Too&quot;",
+          "Ol' Pickaxe",
+          "Video Outpost \"Too\"",
           "Food Donkey"
         ]
       },
@@ -1102,7 +1102,7 @@
         "category": "Entertainment: Music",
         "type": "multiple",
         "difficulty": "easy",
-        "question": "The Rush song &quot;YYZ&quot; derives its name from the IATA aiport identification code for which city?",
+        "question": "The Rush song \"YYZ\" derives its name from the IATA aiport identification code for which city?",
         "correct_answer": "Toronto",
         "incorrect_answers": [
           "Vancouver",
@@ -1114,7 +1114,7 @@
         "category": "Entertainment: Books",
         "type": "multiple",
         "difficulty": "easy",
-        "question": "Who wrote &quot;A Tale of Two Cities&quot;?",
+        "question": "Who wrote \"A Tale of Two Cities\"?",
         "correct_answer": "Charles Dickens",
         "incorrect_answers": [
           "Charles Darwin",
@@ -1138,7 +1138,7 @@
         "category": "General Knowledge",
         "type": "multiple",
         "difficulty": "easy",
-        "question": "What is the French word for &quot;fish&quot;?",
+        "question": "What is the French word for \"fish\"?",
         "correct_answer": "poisson",
         "incorrect_answers": [
           "fiche",
@@ -1150,7 +1150,7 @@
         "category": "Entertainment: Video Games",
         "type": "multiple",
         "difficulty": "medium",
-        "question": "What is the AK-47&#039;s name in Counter Strike: Source?",
+        "question": "What is the AK-47's name in Counter Strike: Source?",
         "correct_answer": "CV-47",
         "incorrect_answers": [
           "AK-74",
@@ -1174,7 +1174,7 @@
         "category": "Entertainment: Video Games",
         "type": "boolean",
         "difficulty": "easy",
-        "question": "In &quot;Space Station 13&quot;,  the station has a clown aboard it.",
+        "question": "In \"Space Station 13\",  the station has a clown aboard it.",
         "correct_answer": "True",
         "incorrect_answers": [
           "False"
