@@ -1,30 +1,6 @@
 {
   "questions": [
     {
-      "category": "Sports",
-      "type": "multiple",
-      "difficulty": "easy",
-      "question": "Which of the following sports is not part of the triathlon?",
-      "correct_answer": "Horse-Riding",
-      "incorrect_answers": [
-        "Cycling",
-        "Swimming",
-        "Running"
-      ]
-    },
-    {
-      "category": "Entertainment: Video Games",
-      "type": "multiple",
-      "difficulty": "medium",
-      "question": "When Halo 3: ODST was unveiled in 2008, it had a different title. What was the game formally called?",
-      "correct_answer": "Halo 3: Recon",
-      "incorrect_answers": [
-        "Halo 3: Helljumpers",
-        "Halo 3: Phantom",
-        "Halo 3: Guerilla"
-      ]
-    },
-    {
       "category": "Politics",
       "type": "multiple",
       "difficulty": "medium",
@@ -73,16 +49,6 @@
       ]
     },
     {
-      "category": "Entertainment: Film",
-      "type": "boolean",
-      "difficulty": "easy",
-      "question": "The film \"2001: A Space Odyssey\" was released on December 31st, 2000.",
-      "correct_answer": "False",
-      "incorrect_answers": [
-        "True"
-      ]
-    },
-    {
       "category": "Entertainment: Music",
       "type": "multiple",
       "difficulty": "easy",
@@ -107,18 +73,6 @@
       ]
     },
     {
-      "category": "Entertainment: Music",
-      "type": "multiple",
-      "difficulty": "medium",
-      "question": "Which one of these artists appears in the album Deltron 3030?",
-      "correct_answer": "Dan the Automater",
-      "incorrect_answers": [
-        "Lamarr Kendrick",
-        "Danger Mouse",
-        "CeeLo Green"
-      ]
-    },
-    {
       "category": "Entertainment: Video Games",
       "type": "multiple",
       "difficulty": "easy",
@@ -131,22 +85,10 @@
       ]
     },
     {
-      "category": "Entertainment: Video Games",
-      "type": "multiple",
-      "difficulty": "medium",
-      "question": "In Call of Duty: United Offensive, what two soldiers share a name of a video game character?",
-      "correct_answer": "Gordon & Freeman",
-      "incorrect_answers": [
-        "Sam & Fisher",
-        "Nathan & Drake",
-        "Dig & Dug"
-      ]
-    },
-    {
       "category": "Geography",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "What is the right way to spell the capital of Hungary?",
+      "question": "What is the capital of Hungary?",
       "correct_answer": "Budapest",
       "incorrect_answers": [
         "Boodapest",
@@ -167,28 +109,6 @@
       ]
     },
     {
-      "category": "Entertainment: Music",
-      "type": "multiple",
-      "difficulty": "medium",
-      "question": "What is the name of French electronic music producer Madeon's 2015 debut studio album?",
-      "correct_answer": "Adventure",
-      "incorrect_answers": [
-        "The City",
-        "Icarus",
-        "Pop Culture"
-      ]
-    },
-    {
-      "category": "Animals",
-      "type": "boolean",
-      "difficulty": "easy",
-      "question": "Rabbits are rodents.",
-      "correct_answer": "False",
-      "incorrect_answers": [
-        "True"
-      ]
-    },
-    {
       "category": "Animals",
       "type": "multiple",
       "difficulty": "hard",
@@ -198,16 +118,6 @@
         "Lion",
         "Parrot",
         "Wildcat"
-      ]
-    },
-    {
-      "category": "Science: Gadgets",
-      "type": "boolean",
-      "difficulty": "easy",
-      "question": "Microphones can be used not only to pick up sound, but also to project sound similar to a speaker.",
-      "correct_answer": "True",
-      "incorrect_answers": [
-        "False"
       ]
     },
     {
@@ -271,16 +181,6 @@
       ]
     },
     {
-      "category": "History",
-      "type": "boolean",
-      "difficulty": "hard",
-      "question": "The USS Missouri (BB-63) last served in the Korean War.",
-      "correct_answer": "False",
-      "incorrect_answers": [
-        "True"
-      ]
-    },
-    {
       "category": "Science: Gadgets",
       "type": "multiple",
       "difficulty": "easy",
@@ -290,18 +190,6 @@
         "2000",
         "1990",
         "1980"
-      ]
-    },
-    {
-      "category": "Entertainment: Japanese Anime & Manga",
-      "type": "multiple",
-      "difficulty": "easy",
-      "question": "Satella in \"Re:Zero\" is the witch of what?",
-      "correct_answer": "Envy",
-      "incorrect_answers": [
-        "Pride",
-        "Sloth",
-        "Wrath"
       ]
     },
     {
@@ -344,22 +232,12 @@
       "category": "Entertainment: Video Games",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "Which of these is the only fighter in the game \"Super Smash Bros. Melee\" capable of dealing damage with their taunt animation?",
+      "question": "Which fighter in the game \"Super Smash Bros. Melee\" is capable of dealing damage with their taunt animation?",
       "correct_answer": "Luigi",
       "incorrect_answers": [
         "Mr. Game & Watch",
         "Jigglypuff",
         "Pichu"
-      ]
-    },
-    {
-      "category": "Entertainment: Video Games",
-      "type": "boolean",
-      "difficulty": "medium",
-      "question": "\"Return to Castle Wolfenstein\" was the only game of the Wolfenstein series where you don't play as William \"B.J.\" Blazkowicz.",
-      "correct_answer": "False",
-      "incorrect_answers": [
-        "True"
       ]
     },
     {
@@ -372,18 +250,6 @@
         "Jimi Hendrix",
         "Brian Jones",
         "Vladimir Vysotsky"
-      ]
-    },
-    {
-      "category": "Entertainment: Video Games",
-      "type": "multiple",
-      "difficulty": "hard",
-      "question": "In \"The Witness\", how many lasers must be activated to get into the mountain area?",
-      "correct_answer": "7",
-      "incorrect_answers": [
-        "8",
-        "5",
-        "12"
       ]
     },
     {
@@ -471,54 +337,6 @@
       ]
     },
     {
-      "category": "Entertainment: Music",
-      "type": "multiple",
-      "difficulty": "medium",
-      "question": "What is the opening track on Lorde's Pure Heroine?",
-      "correct_answer": "Tennis Court",
-      "incorrect_answers": [
-        "Team",
-        "Royals",
-        "400 Lux"
-      ]
-    },
-    {
-      "category": "History",
-      "type": "multiple",
-      "difficulty": "medium",
-      "question": "Which of the following is not in the Indo-European language family?",
-      "correct_answer": "Finnish",
-      "incorrect_answers": [
-        "English",
-        "Hindi",
-        "Russian"
-      ]
-    },
-    {
-      "category": "Science & Nature",
-      "type": "multiple",
-      "difficulty": "hard",
-      "question": "Which of these animals belongs in class Chondrichthyes?",
-      "correct_answer": "Great white shark",
-      "incorrect_answers": [
-        "Octopus",
-        "Killer whale",
-        "Catfish"
-      ]
-    },
-    {
-      "category": "General Knowledge",
-      "type": "multiple",
-      "difficulty": "hard",
-      "question": "Which of the following  British Monarchs never appeared on a circulated pound sterling coin?",
-      "correct_answer": "Edward VIII",
-      "incorrect_answers": [
-        "Victoria",
-        "George VI",
-        "Charles II"
-      ]
-    },
-    {
       "category": "Science & Nature",
       "type": "multiple",
       "difficulty": "medium",
@@ -558,36 +376,12 @@
       "category": "Entertainment: Video Games",
       "type": "multiple",
       "difficulty": "hard",
-      "question": "In the Nintendo Game Splatoon 2, what is Marina's screen name?",
-      "correct_answer": "DJ_Hyperfresh",
-      "incorrect_answers": [
-        "MC.princess",
-        "Kidnotsquid123",
-        "I<30ffTh3H00k"
-      ]
-    },
-    {
-      "category": "Entertainment: Video Games",
-      "type": "multiple",
-      "difficulty": "hard",
       "question": "In the 2014 Pokemon VGC Finals, which Pokemon was famous for bringing the winner to victory?",
       "correct_answer": "Pachirisu",
       "incorrect_answers": [
         "Garchomp",
         "Lapras",
         "Primal Groudon"
-      ]
-    },
-    {
-      "category": "General Knowledge",
-      "type": "multiple",
-      "difficulty": "medium",
-      "question": "What are the three starter Pokemon available in Pokemon Black and White?",
-      "correct_answer": "Snivy, Tepig, Oshawott",
-      "incorrect_answers": [
-        "Snivy, Fennekin, Froakie",
-        "Chespin, Tepig, Froakie",
-        "Chespin, Fennekin, Oshawott"
       ]
     },
     {
@@ -639,18 +433,6 @@
       ]
     },
     {
-      "category": "Entertainment: Television",
-      "type": "multiple",
-      "difficulty": "medium",
-      "question": "What is the title of The Allman Brothers Band instrumental used as the theme to the BBC motoring show, 'Top Gear'?",
-      "correct_answer": "Jessica",
-      "incorrect_answers": [
-        "Angela",
-        "Erica",
-        "Sandra"
-      ]
-    },
-    {
       "category": "Geography",
       "type": "multiple",
       "difficulty": "medium",
@@ -678,7 +460,7 @@
       "category": "Animals",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "What color/colour is a polar bear's skin?",
+      "question": "What color is a polar bear's skin?",
       "correct_answer": "Black",
       "incorrect_answers": [
         "White",
@@ -735,16 +517,6 @@
       ]
     },
     {
-      "category": "Entertainment: Film",
-      "type": "boolean",
-      "difficulty": "easy",
-      "question": "The word \"Inception\" came from the 2010 blockbuster hit \"Inception\".",
-      "correct_answer": "False",
-      "incorrect_answers": [
-        "True"
-      ]
-    },
-    {
       "category": "History",
       "type": "multiple",
       "difficulty": "medium",
@@ -769,28 +541,6 @@
       ]
     },
     {
-      "category": "General Knowledge",
-      "type": "boolean",
-      "difficulty": "medium",
-      "question": "The term \"Spam\" came before the food product \"Spam\".",
-      "correct_answer": "False",
-      "incorrect_answers": [
-        "True"
-      ]
-    },
-    {
-      "category": "Entertainment: Video Games",
-      "type": "multiple",
-      "difficulty": "medium",
-      "question": "Capcom's survival horror title Dead Rising, canonically starts on what day of September 2006?",
-      "correct_answer": "September 19th",
-      "incorrect_answers": [
-        "September 21st",
-        "September 30th",
-        "September 14th"
-      ]
-    },
-    {
       "category": "Entertainment: Music",
       "type": "multiple",
       "difficulty": "medium",
@@ -800,30 +550,6 @@
         "The Low End Theory",
         "The Chronic",
         "Enter The Wu-Tang (36 Chambers)"
-      ]
-    },
-    {
-      "category": "Entertainment: Japanese Anime & Manga",
-      "type": "multiple",
-      "difficulty": "medium",
-      "question": "What year did the anime \"Himouto! Umaru-chan\" air?",
-      "correct_answer": "2015",
-      "incorrect_answers": [
-        "2014",
-        "2012",
-        "2013"
-      ]
-    },
-    {
-      "category": "Entertainment: Video Games",
-      "type": "multiple",
-      "difficulty": "medium",
-      "question": "In the Halo series, what fleet was Thel 'Vadam supreme commander of before being branded an Arbiter?",
-      "correct_answer": "Fleet of Particular Justice",
-      "incorrect_answers": [
-        "Fleet of Sacred Consecration",
-        "Fleet of Furious Redemption",
-        "Fleet of Righteous Vigilance"
       ]
     },
     {
@@ -899,16 +625,6 @@
       ]
     },
     {
-      "category": "Entertainment: Video Games",
-      "type": "boolean",
-      "difficulty": "medium",
-      "question": "In the video game \"Transistor\", \"Red\" is the name of the main character.",
-      "correct_answer": "True",
-      "incorrect_answers": [
-        "False"
-      ]
-    },
-    {
       "category": "Science: Computers",
       "type": "multiple",
       "difficulty": "easy",
@@ -918,18 +634,6 @@
         "Android",
         "BlackBerry",
         "Symbian"
-      ]
-    },
-    {
-      "category": "Entertainment: Music",
-      "type": "multiple",
-      "difficulty": "medium",
-      "question": "Which of these songs is not on the \"untitled\" album by Led Zeppelin?",
-      "correct_answer": "Celebration Day",
-      "incorrect_answers": [
-        "Stairway to Heaven",
-        "Black Dog",
-        "Rock and Roll"
       ]
     },
     {
@@ -1018,16 +722,6 @@
     },
     {
       "category": "Sports",
-      "type": "boolean",
-      "difficulty": "medium",
-      "question": "During Wimbledon, spectators in the grounds can buy the tennis balls that have been used in matches.",
-      "correct_answer": "True",
-      "incorrect_answers": [
-        "False"
-      ]
-    },
-    {
-      "category": "Sports",
       "type": "multiple",
       "difficulty": "easy",
       "question": "In bowling, what is the term used for getting three consecutive strikes?",
@@ -1048,18 +742,6 @@
         "Cough",
         "Yawn",
         "Hiccup"
-      ]
-    },
-    {
-      "category": "Entertainment: Video Games",
-      "type": "multiple",
-      "difficulty": "easy",
-      "question": "In Fallout: New Vegas, which one of these casinos can you not play in?",
-      "correct_answer": "Lucky 38",
-      "incorrect_answers": [
-        "The Tops",
-        "Gammorah",
-        "Ultra-Luxe"
       ]
     },
     {
@@ -1171,16 +853,6 @@
       ]
     },
     {
-      "category": "Entertainment: Video Games",
-      "type": "boolean",
-      "difficulty": "easy",
-      "question": "In \"Space Station 13\",  the station has a clown aboard it.",
-      "correct_answer": "True",
-      "incorrect_answers": [
-        "False"
-      ]
-    },
-    {
       "category": "Animals",
       "type": "multiple",
       "difficulty": "hard",
@@ -1217,16 +889,6 @@
       ]
     },
     {
-      "category": "General Knowledge",
-      "type": "boolean",
-      "difficulty": "medium",
-      "question": "Coca-Cola's original colour was green.",
-      "correct_answer": "False",
-      "incorrect_answers": [
-        "True"
-      ]
-    },
-    {
       "category": "Vehicles",
       "type": "multiple",
       "difficulty": "easy",
@@ -1251,18 +913,6 @@
       ]
     },
     {
-      "category": "Entertainment: Television",
-      "type": "multiple",
-      "difficulty": "easy",
-      "question": "Which of these Bojack Horseman characters is a human?",
-      "correct_answer": "Todd Chavez",
-      "incorrect_answers": [
-        "Lennie Turtletaub",
-        "Princess Carolyn",
-        "Tom Jumbo-Grumbo"
-      ]
-    },
-    {
       "category": "Sports",
       "type": "multiple",
       "difficulty": "medium",
@@ -1284,16 +934,6 @@
         "CO2",
         "NO3",
         "CH4"
-      ]
-    },
-    {
-      "category": "Animals",
-      "type": "boolean",
-      "difficulty": "easy",
-      "question": "A bear does NOT defecate during hibernation. ",
-      "correct_answer": "True",
-      "incorrect_answers": [
-        "False"
       ]
     },
     {
@@ -1342,16 +982,6 @@
         "Republican Spain",
         "Popular Front",
         "Papal State"
-      ]
-    },
-    {
-      "category": "Entertainment: Video Games",
-      "type": "boolean",
-      "difficulty": "easy",
-      "question": "In Terraria, you can craft the Cell Phone pre-hardmode.",
-      "correct_answer": "True",
-      "incorrect_answers": [
-        "False"
       ]
     },
     {
@@ -1436,16 +1066,6 @@
         "Princess Peach",
         "Zoey",
         "Cortana"
-      ]
-    },
-    {
-      "category": "Entertainment: Video Games",
-      "type": "boolean",
-      "difficulty": "medium",
-      "question": "In Monster Hunter Generations, guild style is a type of hunting style.",
-      "correct_answer": "True",
-      "incorrect_answers": [
-        "False"
       ]
     },
     {
@@ -1557,16 +1177,6 @@
       ]
     },
     {
-      "category": "Science & Nature",
-      "type": "boolean",
-      "difficulty": "medium",
-      "question": "Pneumonoultramicroscopicsilicovolcanoconiosis is a synonym for the disease known as silicosis.",
-      "correct_answer": "True",
-      "incorrect_answers": [
-        "False"
-      ]
-    },
-    {
       "category": "Entertainment: Japanese Anime & Manga",
       "type": "multiple",
       "difficulty": "hard",
@@ -1675,18 +1285,6 @@
       ]
     },
     {
-      "category": "Entertainment: Video Games",
-      "type": "multiple",
-      "difficulty": "hard",
-      "question": "Which of these characters from Final Fantasy VIII primarily spoke in one word sentences?",
-      "correct_answer": "Fujin",
-      "incorrect_answers": [
-        "Raijin",
-        "Seifer",
-        "Zell"
-      ]
-    },
-    {
       "category": "Entertainment: Music",
       "type": "multiple",
       "difficulty": "hard",
@@ -1696,18 +1294,6 @@
         "MC Frontalot",
         "Busdriver",
         "Masta Killa"
-      ]
-    },
-    {
-      "category": "General Knowledge",
-      "type": "multiple",
-      "difficulty": "hard",
-      "question": "Which of these cities does NOT have a United States Minting location?",
-      "correct_answer": "St. Louis, MO",
-      "incorrect_answers": [
-        "San Fransisco, CA",
-        "Philidelphia, PA",
-        "West Point, NY"
       ]
     },
     {
