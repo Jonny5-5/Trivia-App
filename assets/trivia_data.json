@@ -745,18 +745,6 @@
       ]
     },
     {
-      "category": "Entertainment: Video Games",
-      "type": "multiple",
-      "difficulty": "easy",
-      "question": "Which of the following is a class in the game \"Hearthstone\"?",
-      "correct_answer": "Priest",
-      "incorrect_answers": [
-        "Sage",
-        "Cleric",
-        "Monk"
-      ]
-    },
-    {
       "category": "Science & Nature",
       "type": "multiple",
       "difficulty": "hard",
@@ -901,18 +889,6 @@
       ]
     },
     {
-      "category": "Science: Computers",
-      "type": "multiple",
-      "difficulty": "medium",
-      "question": "All of the following programs are classified as raster graphics editors EXCEPT:",
-      "correct_answer": "Inkscape",
-      "incorrect_answers": [
-        "Paint.NET",
-        "GIMP",
-        "Adobe Photoshop"
-      ]
-    },
-    {
       "category": "Sports",
       "type": "multiple",
       "difficulty": "medium",
@@ -1054,18 +1030,6 @@
         "Welcome to Heartbreak",
         "Street Lights",
         "Heartless"
-      ]
-    },
-    {
-      "category": "Entertainment: Video Games",
-      "type": "multiple",
-      "difficulty": "medium",
-      "question": "Which of the following has Jennifer Taylor NOT voiced?",
-      "correct_answer": "Sarah Kerrigan",
-      "incorrect_answers": [
-        "Princess Peach",
-        "Zoey",
-        "Cortana"
       ]
     },
     {
@@ -1225,18 +1189,6 @@
       ]
     },
     {
-      "category": "Entertainment: Video Games",
-      "type": "multiple",
-      "difficulty": "hard",
-      "question": "In the \"Pikmin\" games, which of the following pikmin colors lacks it's own \"Onion\" nest?",
-      "correct_answer": "Purple",
-      "incorrect_answers": [
-        "Winged",
-        "Blue",
-        "Rock"
-      ]
-    },
-    {
       "category": "Entertainment: Television",
       "type": "multiple",
       "difficulty": "medium",
@@ -1354,6 +1306,522 @@
         "Haruno",
         "Uzumaki",
         "Yamanaka"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "In what year did Neil Armstrong and Buzz Aldrin land on the moon?",
+      "correct_answer": "1969",
+      "incorrect_answers": [
+        "1965",
+        "1966",
+        "1973"
+      ]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which river flows through the Scottish city of Glasgow?",
+      "correct_answer": "Clyde",
+      "incorrect_answers": [
+        "Tay",
+        "Dee",
+        "Tweed"
+      ]
+    },
+    {
+      "category": "Celebrities",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Named after a character he played in a 1969 film, what is the name of the ski resort in Utah that Robert Redford bought in 1968?",
+      "correct_answer": "Sundance",
+      "incorrect_answers": [
+        "Woodward",
+        "Turner",
+        "Booker"
+      ]
+    },
+    {
+      "category": "Entertainment: Film",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "In the 1984 movie \"The Terminator\", what model number is the Terminator portrayed by Arnold Schwarzenegger?",
+      "correct_answer": "T-800",
+      "incorrect_answers": [
+        "I-950",
+        "T-888",
+        "T-1000"
+      ]
+    },
+    {
+      "category": "Entertainment: Music",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Typically, how many keys are on a piano?",
+      "correct_answer": "88",
+      "incorrect_answers": [
+        "24",
+        "12",
+        "96"
+      ]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What is the most expensive weapon in Counter-Strike: Global Offensive?",
+      "correct_answer": "Scar-20/G3SG1",
+      "incorrect_answers": [
+        "M4A1",
+        "AWP",
+        "R8 Revolver"
+      ]
+    },
+    {
+      "category": "Science: Computers",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "The programming language 'Swift' was created to replace what other programming language?",
+      "correct_answer": "Objective-C",
+      "incorrect_answers": [
+        "C#",
+        "Ruby",
+        "C++"
+      ]
+    },
+    {
+      "category": "Science & Nature",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Gannymede is the largest moon of which planet?",
+      "correct_answer": "Jupiter",
+      "incorrect_answers": [
+        "Uranus",
+        "Neptune",
+        "Mars"
+      ]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What is the name of the main healing item in Dark Souls?",
+      "correct_answer": "Estus Flask",
+      "incorrect_answers": [
+        "Health Potion",
+        "Orange Juice",
+        "Ashen Flask"
+      ]
+    },
+    {
+      "category": "Entertainment: Film",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What does TIE stand for in reference to the TIE Fighter in \"Star Wars\"?",
+      "correct_answer": "Twin Ion Engine",
+      "incorrect_answers": [
+        "Twin Iron Engine",
+        "Twin Intercepter Engine",
+        "Twin Inception Engine"
+      ]
+    },
+    {
+      "category": "Entertainment: Music",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which artist released the 2012 single \"Harlem Shake\", which was used in numerous YouTube videos in 2013?",
+      "correct_answer": "Baauer",
+      "incorrect_answers": [
+        "RL Grime",
+        "NGHTMRE",
+        "Flosstradamus"
+      ]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What is the protagonist's title given by the demons in DOOM (2016)?",
+      "correct_answer": "Doom Slayer",
+      "incorrect_answers": [
+        "Doom Guy",
+        "Doom Marine",
+        "Doom Reaper"
+      ]
+    },
+    {
+      "category": "Science: Computers",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "How many cores does the Intel i7-6950X have?",
+      "correct_answer": "10",
+      "incorrect_answers": [
+        "12",
+        "8",
+        "4"
+      ]
+    },
+    {
+      "category": "Entertainment: Books",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "The novel \"Jane Eyre\" was written by what author? ",
+      "correct_answer": "Charlotte Bronte",
+      "incorrect_answers": [
+        "Emily Bronte",
+        "Jane Austen",
+        "Louisa May Alcott"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What nationality was sultan Saladin?",
+      "correct_answer": "Kurdish",
+      "incorrect_answers": [
+        "Arab",
+        "Egyptian",
+        "Syrian"
+      ]
+    },
+    {
+      "category": "Entertainment: Television",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "On the show \"Rick and Morty\", in episode \"Total Rickall\", who was a parasite?",
+      "correct_answer": "Pencilvester",
+      "incorrect_answers": [
+        "Beth Smith",
+        "Summer Smith",
+        "Mr. Poopy Butthole"
+      ]
+    },
+    {
+      "category": "Science: Computers",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "In programming, the ternary operator is mostly defined with what symbol(s)?",
+      "correct_answer": "?:",
+      "incorrect_answers": [
+        "??",
+        "if then",
+        "?"
+      ]
+    },
+    {
+      "category": "Entertainment: Books",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What is the name of the protagonist of J.D. Salinger's novel Catcher in the Rye?",
+      "correct_answer": "Holden Caulfield",
+      "incorrect_answers": [
+        "Fletcher Christian",
+        "Jay Gatsby",
+        "Randall Flagg"
+      ]
+    },
+    {
+      "category": "Entertainment: Music",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "According to a song by Belinda Carlisle, Heaven is a place on what?",
+      "correct_answer": "Earth",
+      "incorrect_answers": [
+        "Venus",
+        "Mars",
+        "Uranus"
+      ]
+    },
+    {
+      "category": "Entertainment: Japanese Anime & Manga",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Who is the author of the manga series \"Astro Boy\"?",
+      "correct_answer": "Osamu Tezuka",
+      "incorrect_answers": [
+        "Mitsuteri Yokoyama",
+        "Takao Saito",
+        "Yoshihiro Tatsumi"
+      ]
+    },
+    {
+      "category": "Entertainment: Film",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What was the first monster to appear alongside Godzilla?",
+      "correct_answer": "Anguirus",
+      "incorrect_answers": [
+        "King Kong",
+        "Mothra",
+        "King Ghidora"
+      ]
+    },
+    {
+      "category": "Geography",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What is the Polish city known to Germans as Danzig?",
+      "correct_answer": "Gdańsk",
+      "incorrect_answers": [
+        "Warsaw",
+        "Zakopane",
+        "Poznań"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "In 1939, Britain and France declared war on Germany after it invaded which country?",
+      "correct_answer": "Poland",
+      "incorrect_answers": [
+        "Czechoslovakia",
+        "Austria",
+        "Hungary"
+      ]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which franchise was NOT featured in the 2015 video game \"Lego Dimensions\"?",
+      "correct_answer": "Breaking Bad",
+      "incorrect_answers": [
+        "Portal",
+        "Doctor Who",
+        "Back to the Future"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "To what political party did Abraham Lincoln belong when elected POTUS?",
+      "correct_answer": "Republican",
+      "incorrect_answers": [
+        "Democrat",
+        "Independent",
+        "Whig"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Who won the \"Champions League\" in 1999?",
+      "correct_answer": "Manchester United",
+      "incorrect_answers": [
+        "Barcelona",
+        "Bayern Munich",
+        "Liverpool"
+      ]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What former MOBA, created by Waystone Games and published by EA, was shut down in 2014?",
+      "correct_answer": "Dawngate",
+      "incorrect_answers": [
+        "Strife",
+        "League of Legends",
+        "Heroes of Newerth"
+      ]
+    },
+    {
+      "category": "Science & Nature",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "On which mission did the Space Shuttle Columbia break up upon re-entry?",
+      "correct_answer": "STS-107",
+      "incorrect_answers": [
+        "STS-51-L",
+        "STS-61-C",
+        "STS-109"
+      ]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which Crypt of the NecroDancer (2015) character has a soundtrack by Jake \"Virt\" Kaufman?",
+      "correct_answer": "Uncle Eli",
+      "incorrect_answers": [
+        "Cadence",
+        "Nocturna",
+        "Octavian (Bard)"
+      ]
+    },
+    {
+      "category": "Entertainment: Board Games",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "What was the development code name for the \"Urza's Destiny\" expansion for \"Magic: The Gathering\", released in 1999?",
+      "correct_answer": "Chimichanga",
+      "incorrect_answers": [
+        "Burrito",
+        "Taquito",
+        "Enchilada"
+      ]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Which gaming series includes \"The Diabolical Box\" and \"The Curious Village\"?",
+      "correct_answer": "Professor Layton",
+      "incorrect_answers": [
+        "Persona",
+        "Etrian Odyssey",
+        "Sam & Max"
+      ]
+    },
+    {
+      "category": "Entertainment: Music",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which Iron Maiden album did the song \"Dream of Mirrors\" feature in?",
+      "correct_answer": "Brave New World",
+      "incorrect_answers": [
+        "Dance of Death",
+        "A Matter of Life and Death",
+        "Somewhere in Time"
+      ]
+    },
+    {
+      "category": "Geography",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "How many rivers are in Saudi Arabia?",
+      "correct_answer": "0",
+      "incorrect_answers": [
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which sport is NOT traditionally played during the Mongolian Naadam festival?",
+      "correct_answer": "American Football",
+      "incorrect_answers": [
+        "Wrestling",
+        "Archery",
+        "Horse-Racing"
+      ]
+    },
+    {
+      "category": "Entertainment: Music",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which group performs the song \"Crash into Me\"?",
+      "correct_answer": "Dave Matthews Band",
+      "incorrect_answers": [
+        "Phish",
+        "The Grateful Dead",
+        "Destiny's Child"
+      ]
+    },
+    {
+      "category": "Entertainment: Music",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Who released the 1991 album \"Out of Time\"?",
+      "correct_answer": "R.E.M.",
+      "incorrect_answers": [
+        "U2",
+        "Coldplay",
+        "The Rolling Stones"
+      ]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "When one is \"envious\", they are said to be what color?",
+      "correct_answer": "Green",
+      "incorrect_answers": [
+        "Red",
+        "Blue",
+        "Yellow"
+      ]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which Final Fantasy game consisted of a female-only cast of party members?",
+      "correct_answer": "Final Fantasy X-2",
+      "incorrect_answers": [
+        "Final Fantasy IX",
+        "Final Fantasy V",
+        "Final Fantasy XIII-2"
+      ]
+    },
+    {
+      "category": "Science: Computers",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "The teapot often seen in many 3D modeling applications is called what?",
+      "correct_answer": "Utah Teapot",
+      "incorrect_answers": [
+        "Pixar Teapot",
+        "3D Teapot",
+        "Tennessee Teapot"
+      ]
+    },
+    {
+      "category": "Entertainment: Television",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "In the show \"Dragonball Z\", what is the name of Cell's most powerful attack?",
+      "correct_answer": "Solar Kamehameha",
+      "incorrect_answers": [
+        "Super Kamehameha",
+        "Cell Kamehameha",
+        "Android Kamehameha"
+      ]
+    },
+    {
+      "category": "Entertainment: Musicals & Theatres",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "The Andrew Lloyd Webber musical \"Cats\" is based off a book of poems written by which author?",
+      "correct_answer": "T.S. Elliot",
+      "incorrect_answers": [
+        "Andrew Lloyd Webber",
+        "Emily Dickenson",
+        "Robert Frost"
+      ]
+    },
+    {
+      "category": "Politics",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "The Watergate Scandal occured in what year?",
+      "correct_answer": "1972",
+      "incorrect_answers": [
+        "1973",
+        "1974",
+        "1971"
+      ]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "In Geometry Dash, what is level 13?",
+      "correct_answer": "Electroman Adventures",
+      "incorrect_answers": [
+        "Theory of Everything",
+        "Clubstep ",
+        "Clutterfunk"
       ]
     }
   ]
